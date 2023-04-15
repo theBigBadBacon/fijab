@@ -1,0 +1,22 @@
+####################### Spotlight #########################
+style: "style1 orient-left content-align-left image-position-center onscroll-image-fade-in"
+id: "webdevelopment"
+title : "Webbutveckling"
+content: |
+  Vi erbjuder professionell webbutveckling för företag i alla branscher. Med över åtta års erfarenhet i både frontend- och backendutveckling.
+  <br><br>
+  Vårt team består av erfarna webbutvecklare som är experter på att skapa anpassade webbplatser och tjänster som passar just dina företagsbehov. Vi använder de senaste teknologierna och verktygen för att leverera högkvalitativa och användarvänliga hemsidor.
+  Oavsett om ni behöver kostnadseffektiva molntjänster, integrationer i Java eller snabba upp er gamla Wordpress-sajt kan vi hjälpa er.
+  <br><br>
+  Vi är specialiserade på att skapa responsiva webbplatser som ser fantastiska ut på alla enheter, från desktop till mobila enheter. Våra webbutvecklare har stor erfarenhet av att skapa webbplatser som laddar snabbt och har en hög prestanda.
+  <br><br>
+  Vi erbjuder också skräddarsydda e-handelslösningar som gör att ditt företag kan sälja produkter online och nå en bredare publik. Våra e-handelslösningar är enkla att använda och är utformade för att ge en smidig köpupplevelse för dina kunder.
+  <br><br>
+  Vi använder ett iterativt arbetssätt för att kapa dyra ändringar sent i processen. Ni får kontinuerligt justera riktningen utvecklingen tar för att ni ska få den produkt ni behöver och inte lägga mängder av pengar på flådig design.
+  <br><br>
+  Vi skulle älska att hjälpa dig. Kontakta oss idag för att diskutera dina webbutvecklingsbehov och se hur vi kan hjälpa till att ta ditt företag till nästa nivå.
+button: 
+  label: "Kontakta oss"
+  link: "#form"
+  service: "web-development"
+image: "images/web-development.jpg"

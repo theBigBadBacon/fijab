@@ -1,0 +1,22 @@
+title : "Våra tjänster"
+content: |
+  Här ser du vårat utbud av tjänster som vi kan erbjuda er.
+style: "style1 medium onscroll-fade-in"
+items:
+  # feature item loop
+  - name : "Företagsstäd"
+    content : "Vi erbjuder högkvalitativ företagsstädning med fokus på företag i Jämtland."
+    ref : "#cleaning"
+    style : "style2 major fa-vacuum"
+
+  # feature item loop
+  - name : "Webbutveckling"
+    content : "Vi erbjuder skräddarsydda lösningar för just ditt företag."
+    ref : "#webdevelopment"
+    style : "solid style2 major fa-browser"
+
+  # feature item loop
+  - name : "Redovisningstjänster"
+    content : "Vi erbjuder redovisningstjänster av olika slag."
+    ref : "#economy"
+    style : "solid style2 major fa-sack-dollar"

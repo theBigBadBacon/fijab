@@ -1,0 +1,12 @@
+####################### Banner #########################
+style: "style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right"
+title : "Företagstjänster i Jämtland AB"
+subtitle: |
+  Vi hjälper er med era behov
+content : |
+  Vi erbjuder flera olika tjänster som företagsstäd, webbutveckling och redovisningstjänster för att hjälpa erat företag.
+button:
+  label : "Våra tjänster"
+  link : "#items"
+image : "images/desk.jpg"
+

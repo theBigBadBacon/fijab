@@ -1,0 +1,21 @@
+####################### Spotlight #########################
+style: "style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
+id: "cleaning"
+title : "Företagsstäd"
+content: |
+  Vi erbjuder högkvalitativ företagsstädning med fokus på företag i Jämtland. Vi förstår vikten av att ha en ren och fräsch arbetsmiljö för att öka produktiviteten och trivseln på arbetsplatsen.
+  <br><br>
+  Vi har ett dedikerat team av professionella städare som är experter på att leverera skräddarsydda städlösningar som passar just din verksamhet. Vi använder endast de bästa städprodukterna och utrustningen för att garantera att ditt företag är rent och prydligt.
+  <br><br>
+  Vi vet att varje företag är unikt, och därför skräddarsyr vi våra städtjänster för att möta just dina behov och krav. Våra städare är välutbildade och erfarna inom att städa alla typer av företagslokaler, från små kontor till stora produktionsanläggningar.
+  <br><br>
+  Vi erbjuder också flexibla tidsscheman för att passa in i din företagsdag och minimera störningar för din verksamhet. Oavsett om du behöver städning en gång i veckan eller varje dag, kan vi erbjuda en lösning som fungerar för dig.
+  <br><br>
+  Vi förstår också vikten av att ha en pålitlig och pålitlig städleverantör. Därför är våra städare noggrant utvalda och har genomgått en bakgrundskontroll för att garantera att de är pålitliga och säkra att ha på din arbetsplats.
+  <br><br>
+  Kontakta oss idag för att få mer information om våra städtjänster och hur vi kan hjälpa till att hålla din arbetsplats ren och trivsam!.
+button: 
+  label: "Kontakta oss"
+  link: "#form"
+  service: "cleaning"
+image: "images/spray.jpg"

@@ -1,0 +1,19 @@
+####################### Spotlight #########################
+style: "style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
+id: "economy"
+title : "Redovisningstjänster"
+content: |
+  Hos oss på Företagstjänster i Jämtland AB är vi passionerade när det kommer till att hjälpa företag att hantera sin ekonomi på bästa sätt. Vi tror att en välorganiserad och uppdaterad redovisning är avgörande för att lyckas driva och växa ditt företag, och vi är stolta över att kunna erbjuda högkvalitativa redovisningstjänster som garanterar just detta.
+  <br><br>
+  Vi förstår att varje företag är unikt, och det är därför vi skräddarsyr våra redovisningstjänster efter dina specifika behov. Oavsett om du behöver hjälp med bokföring, momsredovisning, löneadministration eller årsredovisningar, så har vi den expertis och erfarenhet som krävs för att ge dig bästa möjliga resultat.
+  <br><br>
+  Vi arbetar nära med våra kunder för att förstå deras affärsmodell och skapa en personlig lösning som är skräddarsydd för just deras verksamhet. Vi är också mycket medvetna om betydelsen av att ha en pålitlig redovisningspartner, och det är därför alla våra redovisningsproffs noga utvalda och har genomgått en bakgrundskontroll för att garantera att de är säkra att ha på din arbetsplats.
+  <br><br>
+  Vi är stolta över att vara ett papperfritt företag, och vi använder digitala lösningar för att garantera att din redovisning är korrekt och uppdaterad i realtid. Detta ger dig också en smidig och säker redovisningsprocess, där allt sker online.
+  <br><br>
+  Så oavsett om du är en nystartad företagare eller en etablerad företagare som letar efter en pålitlig redovisningspartner, så kan vi hjälpa dig att ta hand om din ekonomi och ta ditt företag till nästa nivå. Kontakta oss idag för att diskutera dina behov och se hur vi kan hjälpa till att optimera din redovisning.
+button: 
+  label: "Kontakta oss"
+  link: "#form"
+  service: "economy"
+image: "images/economy.jpg"
