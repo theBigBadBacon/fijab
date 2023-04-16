@@ -2,8 +2,8 @@
 <footer class="wrapper style1 align-center">
     <div class="inner">
         <ul class="icons">
-            {{ with .Site.Params.social.facebook }}<li><a target="_blank" href="{{.}}" class="icon brands style2 fa-facebook"><span class="label">Facebook</span></a></li>{{end}}
-            {{ with .Site.Params.social.email }}<li><a target="_blank" href="mailto:{{.}}" class="fav icon style2 fa-envelope"><span class="label">Email</span></a></li>{{end}}
+            {{ with .Site.Params.social.facebook }}<li><a target="_blank" href="{{.}}" class="icon brands style2 fa-facebook" aria-label="Gå till vår Facebooksida"><span class="label">Facebook</span></a></li>{{end}}
+            {{ with .Site.Params.social.email }}<li><a target="_blank" href="mailto:{{.}}" class="fav icon style2 fa-envelope" aria-label="Skicka ett mail till oss"><span class="label">Email</span></a></li>{{end}}
         </ul>
         <p>Företagstjänster i Jämtland AB &copy; {{ now.Format "2006" }}</p>
 </div>

@@ -36,3 +36,5 @@ disableKinds = ["taxonomy", "taxonomyTerm", "section"]
 [Params.social]
 email = "bystedtpontus@gmail.com"
 facebook = "https://www.facebook.com/profile.php?id=100092133390750"
+
+enableRobotsTXT = true
