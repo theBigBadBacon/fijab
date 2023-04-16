@@ -1,0 +1,87 @@
+/*
+	Hugo Story by CaressOfSteel
+	A (modular, highly tweakable) responsive one-page theme for Hugo.
+	Ported from Story by HTML5UP.
+	This Hugo theme is licensed under the Creative Commons Attribution 3.0 License.
+*/
+
+/* Basic */
+
+	// MSIE: Required for IEMobile.
+		@-ms-viewport {
+			width: device-width;
+		}
+
+	// MSIE: Prevents scrollbar from overlapping content.
+		body {
+			-ms-overflow-style: scrollbar;
+		}
+
+	// Ensures page width is always >=320px.
+		@include breakpoint('<=xsmall') {
+			html, body {
+				min-width: 320px;
+			}
+		}
+
+	// Set box model to border-box.
+	// Based on css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice
+		html {
+			box-sizing: border-box;
+		}
+
+		*, *:before, *:after {
+			box-sizing: inherit;
+		}
+
+	body {
+		background: _palette(bg);
+
+		// Stops initial animations until page loads.
+			&.is-preload {
+				*, *:before, *:after {
+					@include vendor('animation', 'none !important');
+					@include vendor('transition', 'none !important');
+				}
+			}
+
+	}
+
+	#cookie-notice {
+		font-size: larger;
+		padding: 0.5rem 1rem;
+		display: none;
+		text-align: center;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		padding-top: 40px;
+		padding-bottom: 40px;
+		width: 100%;
+		background: rgb(223, 223, 223);
+		color: black;
+	}
+	
+	#cookie-notice a {
+		font-weight: 600;
+		display: inline-flex;
+		cursor: pointer;
+		margin-left: 0.5rem;
+	}
+
+	#cookie-notice-deny {
+		background-color: white;
+	}
+
+	@media (max-width: 767px) {
+			#cookie-notice span {
+				display: block;
+				padding-top: 3px;
+				margin-bottom: 1rem;
+			}
+			#cookie-notice a {
+				position: relative;
+				bottom: 4px;
+			}
+	}
+		

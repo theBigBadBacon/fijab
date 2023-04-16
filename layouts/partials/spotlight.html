@@ -8,6 +8,21 @@
         </ul>{{ end }}
     </div>
     {{ with .image }}<div class="image">
-        <img src="{{ . }}" alt="" />
+        <picture>
+            {{ $webpPath:= replace . ".jpg" ".webp" }}
+        
+            <source srcset="{{ $webpPath | safeURL }}" type="image/webp" >
+        
+            {{ $img := imageConfig (add "/static/" (. | safeURL)) }}
+
+            <img
+            src="{{ . | safeURL }}"
+            alt="Våra tjänster"
+            loading="lazy"
+            decoding="async"
+            width="{{ $img.Width }}"
+            height="{{ $img.Height }}"
+            />
+        </picture>
     </div>{{ end }}
 </section>

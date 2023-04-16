@@ -15,10 +15,6 @@ relativeURLs = "true"
 baseURL = "/"
 publishDir = "public"
 
-# Remote
-#baseURL = "https://caressofsteel.github.io/demos/hugo/hugo-story/"
-#publishDir = "//centos/sites/hugodev/hugostory/"
-
 
 ## -----------------------------------------------
 ## Hugo Built-in Features
@@ -34,7 +30,7 @@ disableKinds = ["taxonomy", "taxonomyTerm", "section"]
 [Params]
 
 [Params.social]
-email = "bystedtpontus@gmail.com"
+email = "intresse@fijab.se"
 facebook = "https://www.facebook.com/profile.php?id=100092133390750"
 
 enableRobotsTXT = true
