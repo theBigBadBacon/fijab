@@ -9,14 +9,14 @@ items:
     ref : "#cleaning"
     style : "style2 major cleaning"
 
-  # feature item loop
-  - name : "Webbutveckling"
-    content : "Vi erbjuder skräddarsydda lösningar för just ditt företag."
-    ref : "#webdevelopment"
-    style : "solid style2 major web-development"
+  # # feature item loop
+  # - name : "Webbutveckling"
+  #   content : "Vi erbjuder skräddarsydda lösningar för just ditt företag."
+  #   ref : "#webdevelopment"
+  #   style : "solid style2 major web-development"
 
-  # feature item loop
-  - name : "Redovisningstjänster"
-    content : "Vi erbjuder redovisningstjänster av olika slag."
-    ref : "#economy"
-    style : "solid style2 major economy"
+  # # feature item loop
+  # - name : "Redovisningstjänster"
+  #   content : "Vi erbjuder redovisningstjänster av olika slag."
+  #   ref : "#economy"
+  #   style : "solid style2 major economy"
