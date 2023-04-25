@@ -9,7 +9,8 @@
             <li><a href="{{ .link }}" class="button secondary large wide smooth-scroll-middle">{{ .label }}</a></li>
         </ul>{{ end }}
     </div>
-    {{ with .image }}<div class="image">
+    {{ with .image }}
+    <div class="image">
         <picture>
             {{ $webpPath:= replace . ".jpg" ".webp" }}
         
@@ -26,5 +27,6 @@
             height="{{ $img.Height }}"
             />
         </picture>
+    </div>
     {{end}}
 </section>

@@ -9,6 +9,16 @@ items:
     ref : "#cleaning"
     style : "style2 major cleaning"
 
+  - name : "Fotografering"
+    content : "Vi tar professionella bilder av dina motiv. Allt från profilbilder till landskapsfoton."
+    ref : "#photography"
+    style : "style2 major camera"
+
+  - name : "Tjänster för privatpersoner"
+    content : "För dig som privatperson erbjuder vi också flera olika tjänster. Slipp det tråkiga. Hör av dig!"
+    ref : "#private"
+    style : "style2 major private image-bottom"
+
   # # feature item loop
   # - name : "Webbutveckling"
   #   content : "Vi erbjuder skräddarsydda lösningar för just ditt företag."

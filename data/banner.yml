@@ -2,9 +2,9 @@
 style: "style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right"
 title : "Företagstjänster i Jämtland AB"
 subtitle: |
-  Vi hjälper er med era behov
+  En helhetslösning för dig och ditt företag
 content : |
-  Vi erbjuder i huvudsak företagsstäd för företag i Jämtlands län.
+  Vi erbjuder ett stort utbud av tjänster för företag och privatpersoner i Jämtlands län.
 # Vi erbjuder flera olika tjänster som företagsstäd, webbutveckling och redovisningstjänster för att hjälpa erat företag.
 button:
   label : "Våra tjänster"

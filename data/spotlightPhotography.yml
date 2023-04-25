@@ -1,0 +1,12 @@
+####################### Spotlight #########################
+id: "photography"
+title : "Fotografering"
+content: |
+  Vi erbjuder fotografering för alla dina behov.
+  <br><br>
+  Oavsett om du vill ha fantastiska porträtt, vackra bröllopsbilder eller minnesvärda familjefoton, så har vi de färdigheter och erfarenheter som krävs för att göra det möjligt. Kontakta oss idag för att boka din egen fotografsession!
+button: 
+  label: "Kontakta oss"
+  link: "#form"
+  service: "camera"
+image: "images/photography.jpg"

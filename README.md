@@ -7,4 +7,6 @@ Icons:
  * Accounting - srip
  * Facebook - Freepik
  * Email - Freepik
+ * Person - Freepik
+ * Camera - t-rex
  

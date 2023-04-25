@@ -1,0 +1,11 @@
+####################### Spotlight #########################
+style: "image-bottom"
+id: "private"
+title : "Tjänster privatpersoner"
+content: |
+  För dig som privatperson kan vi också erbjuda olika tjänster. Behöver du häckklippning, flyttstäd, fönsterputsning, fotografering eller något annat? Kontakta oss!
+button: 
+  label: "Kontakta oss"
+  link: "#form"
+  service: "private"
+image: "images/private.jpg"
