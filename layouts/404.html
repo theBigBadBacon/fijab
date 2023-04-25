@@ -1,0 +1,19 @@
+{{ define "main" }}
+  <div>
+    <h1 id="title">Sidan kunde inte hittas!</h1>
+    <p>
+      <a href="{{ "" | relURL }}">Gå till startsidan</a>
+    </p>
+  </div>
+  <style>
+    html, body, #wrapper {
+			height: 100%;
+		}
+    div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+{{ end }}
