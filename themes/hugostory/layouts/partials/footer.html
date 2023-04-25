@@ -13,8 +13,3 @@
             Images courtesy of <a target="_blank" href="https://unsplash.com">Unsplash</a></p>
 </div>
 </footer>
-
-<!-- FontAwesome JS -->
-{{ range .Site.Params.asset.fontawesome_js -}}
-    <script type="text/javascript" src="{{ . | absURL }}"></script>
-{{- end }}

@@ -4,7 +4,7 @@ homepage = "https://caressofsteel.github.io/demos/hugo/hugo-story/"
 
 min_version = "0.67.3 Extended"
 tags = ["blog","clean","html5up","modular","one-page","portfolio","responsive"]
-features = ["font-awesome","favicon","one-page","responsive","sass","scss"]
+features = ["favicon","one-page","responsive","sass","scss"]
 
 license = "Creative Commons"
 licenselink = "https://github.com/caressofsteel/hugo-story/blob/master/LICENSE"
