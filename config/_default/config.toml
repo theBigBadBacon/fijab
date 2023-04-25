@@ -13,7 +13,7 @@ relativeURLs = "true"
 
 # Local
 baseURL = "/"
-publishDir = "dist"
+publishDir = "public"
 
 # Remote
 #baseURL = "https://caressofsteel.github.io/demos/hugo/hugo-story/"
