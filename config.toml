@@ -13,7 +13,7 @@ relativeURLs = "true"
 
 # Local
 baseURL = "/"
-publishDir = "public"
+publishDir = "dist"
 
 
 ## -----------------------------------------------
