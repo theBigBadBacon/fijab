@@ -8,5 +8,5 @@ content: |
 button: 
   label: "Kontakta oss"
   link: "#form"
-  service: "camera"
+  service: "photography"
 image: "images/photography.jpg"
