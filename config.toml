@@ -27,10 +27,8 @@ disableKinds = ["taxonomy", "taxonomyTerm", "section"]
 ## Site Parameters
 ## -----------------------------------------------
 
-[Params]
-
-[Params.social]
-email = "intresse@fijab.se"
-facebook = "https://www.facebook.com/profile.php?id=100092133390750"
+[params.social]
+  email = "kontakt@fijab.se"
+  facebook = "https://www.facebook.com/profile.php?id=100092133390750"
 
 enableRobotsTXT = true
