@@ -4,29 +4,18 @@ content: |
 style: "style1 medium onscroll-fade-in"
 items:
   # feature item loop
-  - name : "Företagsstäd"
-    content : "Vi erbjuder högkvalitativ företagsstädning med fokus på företag i Jämtland."
-    ref : "#cleaning"
-    style : "style2 major cleaning"
 
-  - name : "Fotografering"
-    content : "Vi tar professionella bilder av dina motiv. Allt från profilbilder till landskapsfoton."
-    ref : "#photography"
-    style : "style2 major camera"
+  - name : "Webbutveckling"
+    content : "Vi erbjuder skräddarsydda lösningar för just ditt företag."
+    ref : "#webdevelopment"
+    style : "solid style2 major web-development"
 
-  - name : "Tjänster för privatpersoner"
-    content : "För dig som privatperson erbjuder vi också flera olika tjänster. Slipp det tråkiga. Hör av dig!"
-    ref : "#private"
-    style : "style2 major private image-bottom"
+  - name : "Redovisningstjänster"
+    content : "Vi erbjuder redovisningstjänster av olika slag."
+    ref : "#economy"
+    style : "solid style2 major economy"
 
-  # # feature item loop
-  # - name : "Webbutveckling"
-  #   content : "Vi erbjuder skräddarsydda lösningar för just ditt företag."
-  #   ref : "#webdevelopment"
-  #   style : "solid style2 major web-development"
-
-  # # feature item loop
-  # - name : "Redovisningstjänster"
-  #   content : "Vi erbjuder redovisningstjänster av olika slag."
-  #   ref : "#economy"
-  #   style : "solid style2 major economy"
+  # - name : "Företagsstäd"
+  #   content : "Vi erbjuder högkvalitativ företagsstädning med fokus på företag i Jämtland."
+  #   ref : "#cleaning"
+  #   style : "style2 major cleaning"
