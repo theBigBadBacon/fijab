@@ -3,14 +3,57 @@
 	
 	{{ partial "head" . }}
 
-	<body>
-
+	<body style="height:100%;overflow:hidden;">
+🏗️
 		<!-- Wrapper -->
-		<div id="wrapper" class="divided">
+		<div id="wrapper" class="divided" style="filter:blur(5px);">
             {{- block "main" . }}{{- end }}
 		<!-- Wrapper -->
 		</div>
-		
+		<div style="position: absolute;top: 0;left: 0;right: 0;bottom: 0;background: rgba(0,0,0,0.7);z-index: 1;display: flex;justify-content: center;align-items: center;text-align: center;">
+			<h1 class="heading1" style="color:white;position:relative;">
+				<div class="waviy">
+					<span style="--i:1">U</span>
+					<span style="--i:2">n</span>
+					<span style="--i:3">d</span>
+					<span style="--i:4">e</span>
+					<span style="--i:5">r</span>
+					<span style="--i:6">&nbsp;</span>
+					<span style="--i:7">u</span>
+					<span style="--i:8">p</span>
+					<span style="--i:9">p</span>
+					<span style="--i:10">b</span>
+					<span style="--i:11">y</span>
+					<span style="--i:12">g</span>
+					<span style="--i:13">g</span>
+					<span style="--i:14">n</span>
+					<span style="--i:15">a</span>
+					<span style="--i:16">d</span>
+				</div>
+			</h1>
+		</div>
+		<style>
+			.waviy {
+				position: relative;
+				-webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+			}
+			.waviy span {
+				position: relative;
+				display: inline-block;
+				color: #fff;
+				text-transform: uppercase;
+				animation: waviy 1s infinite;
+				animation-delay: calc(.1s * var(--i));
+			}
+			@keyframes waviy {
+				0%,40%,100% {
+					transform: translateY(0)
+				}
+				20% {
+					transform: translateY(-20px)
+				}
+			}
+		</style>
 		{{ template "_internal/google_analytics.html" . }}
 		{{ template "_internal/google_analytics_async.html" . }}	
 		{{ partial "scripts" . }}
