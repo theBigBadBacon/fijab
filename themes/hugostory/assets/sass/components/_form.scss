@@ -171,12 +171,6 @@
 				width: (_size(element-height) * 0.6);
 			}
 		}
-
-		&:checked + label {
-			&:before {
-				content: '\f00c';
-			}
-		}
 	}
 
 	input[type="checkbox"] {
@@ -281,6 +275,17 @@
 
 		:-ms-input-placeholder {
 			color: _palette($p, fg-light) !important;
+		}
+	}
+
+	.radioWrapper {
+		display: flex;
+		flex-direction: column;
+		max-width: 240px;
+		margin: 0 auto;
+
+		label {
+			text-align: left;
 		}
 	}
 

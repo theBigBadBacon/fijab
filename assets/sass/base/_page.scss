@@ -34,7 +34,14 @@
 			box-sizing: inherit;
 		}
 
+	
+	@font-face {
+		font-family: 'GeosansLight';
+		src: url('/fonts/GeosansLight.ttf') format('truetype');
+	}
+
 	body {
+		font-family: 'GeosansLight';
 		background: _palette(bg);
 
 		// Stops initial animations until page loads.

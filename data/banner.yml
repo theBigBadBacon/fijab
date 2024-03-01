@@ -1,11 +1,11 @@
 ####################### Banner #########################
 style: "style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right"
-title : "Företagstjänster i Jämtland AB"
+title : "FIJAB.SE"
 subtitle: |
-  En helhetslösning för dig och ditt företag
+  Det ska vara enkelt att vara företagare.<br>Vi är ett företag som hjälper till med det mesta.
 content : |
-  Vi erbjuder ett stort utbud av tjänster för företag i Jämtlands län.
-# Vi erbjuder flera olika tjänster som företagsstäd, webbutveckling och redovisningstjänster för att hjälpa erat företag.
+  <a href="tel:0722230044">072 223 00 44</a><br>
+  <a href="mailto:kontakt@fijab.se">kontakt@fijab.se</a>
 button:
   label : "Våra tjänster"
   link : "#items"

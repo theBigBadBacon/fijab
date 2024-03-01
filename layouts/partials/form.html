@@ -6,15 +6,26 @@
     <div class="content">
       <form method="post" action="#" id="form">
           <div class="fields">
-              <div class="field">
-                  <label for="service">Tjänst</label>
-                  <select name="service" id="service">
+              <div class="field half">
+                  <h4 for="service">Tjänst</h4>
+                  {{/*  <select name="service" id="service">
                       <option value="">- Välj tjänst -</option>
-                      <option value="web-development">Webbutveckling</option>
+                      <option value="webdevelopment">Webbutveckling</option>
                       <option value="economy">Redovisning</option>
-                  </select>
+                      <option value="cleaning">Företagsstäd</option>
+                  </select>  */}}
+                  <div class="radioWrapper">
+                    <input type="radio" name="service" id="webdevelopment" value="webdevelopment"/>
+                    <label for="webdevelopment">Webbutveckling</label><br>
+                    <input type="radio" name="service" id="economy" value="economy"/>
+                    <label for="economy">Redovisning</label><br>
+                    <input type="radio" name="service" id="cleaning" value="cleaning"/>
+                    <label for="cleaning">Företagsstäd</label><br>
+                    <input type="radio" name="service" id="other" value="other"/>
+                    <label for="other">Övrigt</label>
+                  </div>
               </div>
-              <div class="field">
+              <div class="field half">
                   <label for="message">Meddelande</label>
                   <textarea name="message" id="message" rows="6"></textarea>
               </div>

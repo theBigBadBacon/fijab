@@ -9,5 +9,5 @@ Icons:
  * Email - Freepik
  * Person - Freepik
  * Camera - t-rex
- 
-
+Fonts:
+ * GeoSansLight - Manfred Klein

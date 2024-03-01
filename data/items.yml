@@ -1,6 +1,6 @@
 title : "Våra tjänster"
 content: |
-  Här ser du vårat utbud av tjänster som vi kan erbjuda er.
+  Här ser ni ett urval av våra tjänster som vi kan erbjuda er.
 style: "style1 medium onscroll-fade-in"
 items:
   # feature item loop
@@ -8,14 +8,17 @@ items:
   - name : "Webbutveckling"
     content : "Vi erbjuder skräddarsydda lösningar för just ditt företag."
     ref : "#webdevelopment"
+    service: "webdevelopment"
     style : "solid style2 major web-development"
 
   - name : "Redovisningstjänster"
-    content : "Vi erbjuder redovisningstjänster av olika slag."
+    content : "Vi erbjuder redovisningstjänster till små och medelstora företag."
     ref : "#economy"
+    service: "economy"
     style : "solid style2 major economy"
 
-  # - name : "Företagsstäd"
-  #   content : "Vi erbjuder högkvalitativ företagsstädning med fokus på företag i Jämtland."
-  #   ref : "#cleaning"
-  #   style : "style2 major cleaning"
+  - name : "Företagsstäd"
+    content : "Vi erbjuder högkvalitativ företagsstädning med fokus på företag i Jämtland."
+    ref : "#cleaning"
+    service: "cleaning"
+    style : "style2 major cleaning"

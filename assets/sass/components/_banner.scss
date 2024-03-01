@@ -106,15 +106,15 @@
 
 			// Size.
 				&.fullscreen {
-					min-height: 100vh;
+					min-height: 30vh;
 
 					@include orientation(portrait) {
 						.content {
-							min-height: 50vh;
+							min-height: 30vh;
 						}
 
 						.image {
-							height: 50vh;
+							height: 30vh;
 						}
 					}
 				}
