@@ -7,6 +7,8 @@ Hugo Story is a port of the static HTML template Story by HTML5 UP. It is design
 
 This theme is designed for those who are comfortable editing HTML and integrating Hugo short codes and variables to customize the theme to their liking.
 
+blablabla
+
 ## Features
 
 - Minimalist Design
